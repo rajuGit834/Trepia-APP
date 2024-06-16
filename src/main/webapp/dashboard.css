@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+border: none;
+outline: none;
+margin: 0;
+padding: 0;
+color: rgb(252, 252, 252);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+sans-serif
+}
+
+body {
+background-color: rgba(0, 0, 0,0.2);
+margin: 0;
+}
+
+.header-container {
+padding: 1rem 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-container a {
+color: rgb(229, 85, 90);
+}
+
+table {
+border-collapse: collapse;
+width: 70vw;
+min-width: 40rem;
+margin: 5rem auto;
+}
+
+table .table-header, .table-content {
+padding: 4px;
+text-align: center;
+height: 2rem;
+}
+
+.table-header {
+color: black;
+font-size: 1.25rem;
+}
+
+.display-row:nth-child(even) {
+background-color: hsl(358, 73%, 65%);
+}
+
+caption{
+	color: red;
+	font-size: 30px;
+	margin-bottom: 5%;
+}
+
+.active h1 {
+color:red;
+}
+
+.archive h1 {
+color: red;
+}
+
+button {
+background-color: inherit;
+border: none;
+cursor: pointer;
+color: black;
+font-size: 1rem;
+}
